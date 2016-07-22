@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE3D9C191C11D65A00ED514C /* SearchResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3D9C181C11D65A00ED514C /* SearchResultsTableViewController.m */; };
+		FEAD3BD81C08586E008EEAA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD3BD71C08586E008EEAA4 /* main.m */; };
+		FEAD3BDB1C08586E008EEAA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD3BDA1C08586E008EEAA4 /* AppDelegate.m */; };
+		FEAD3BDE1C08586E008EEAA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD3BDD1C08586E008EEAA4 /* ViewController.m */; };
+		FEAD3BE11C08586E008EEAA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEAD3BDF1C08586E008EEAA4 /* Main.storyboard */; };
+		FEAD3BE31C08586E008EEAA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEAD3BE21C08586E008EEAA4 /* Assets.xcassets */; };
+		FEAD3BE61C08586E008EEAA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEAD3BE41C08586E008EEAA4 /* LaunchScreen.storyboard */; };
+		FEAD3BF11C08586E008EEAA4 /* AALSearchBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD3BF01C08586E008EEAA4 /* AALSearchBarControllerTests.m */; };
+		FEAD3BFC1C08586E008EEAA4 /* AALSearchBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD3BFB1C08586E008EEAA4 /* AALSearchBarControllerUITests.m */; };
+		FEAD3C0C1C085FF2008EEAA4 /* AALSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAD3C0B1C085FF2008EEAA4 /* AALSearchController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEAD3BED1C08586E008EEAA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEAD3BCB1C08586E008EEAA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEAD3BD21C08586E008EEAA4;
+			remoteInfo = AALSearchBarController;
+		};
+		FEAD3BF81C08586E008EEAA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEAD3BCB1C08586E008EEAA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEAD3BD21C08586E008EEAA4;
+			remoteInfo = AALSearchBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE3D9C171C11D65A00ED514C /* SearchResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultsTableViewController.h; sourceTree = "<group>"; };
+		FE3D9C181C11D65A00ED514C /* SearchResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultsTableViewController.m; sourceTree = "<group>"; };
+		FEAD3BD31C08586E008EEAA4 /* AALSearchBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AALSearchBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEAD3BD71C08586E008EEAA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEAD3BD91C08586E008EEAA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEAD3BDA1C08586E008EEAA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEAD3BDC1C08586E008EEAA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEAD3BDD1C08586E008EEAA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEAD3BE01C08586E008EEAA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEAD3BE21C08586E008EEAA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEAD3BE51C08586E008EEAA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEAD3BE71C08586E008EEAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEAD3BEC1C08586E008EEAA4 /* AALSearchBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AALSearchBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEAD3BF01C08586E008EEAA4 /* AALSearchBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AALSearchBarControllerTests.m; sourceTree = "<group>"; };
+		FEAD3BF21C08586E008EEAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEAD3BF71C08586E008EEAA4 /* AALSearchBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AALSearchBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEAD3BFB1C08586E008EEAA4 /* AALSearchBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AALSearchBarControllerUITests.m; sourceTree = "<group>"; };
+		FEAD3BFD1C08586E008EEAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEAD3C0A1C085FF2008EEAA4 /* AALSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALSearchController.h; sourceTree = "<group>"; };
+		FEAD3C0B1C085FF2008EEAA4 /* AALSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALSearchController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEAD3BD01C08586E008EEAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAD3BE91C08586E008EEAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAD3BF41C08586E008EEAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEAD3BCA1C08586E008EEAA4 = {
+			isa = PBXGroup;
+			children = (
+				FEAD3BD51C08586E008EEAA4 /* AALSearchBarController */,
+				FEAD3BEF1C08586E008EEAA4 /* AALSearchBarControllerTests */,
+				FEAD3BFA1C08586E008EEAA4 /* AALSearchBarControllerUITests */,
+				FEAD3BD41C08586E008EEAA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEAD3BD41C08586E008EEAA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEAD3BD31C08586E008EEAA4 /* AALSearchBarController.app */,
+				FEAD3BEC1C08586E008EEAA4 /* AALSearchBarControllerTests.xctest */,
+				FEAD3BF71C08586E008EEAA4 /* AALSearchBarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEAD3BD51C08586E008EEAA4 /* AALSearchBarController */ = {
+			isa = PBXGroup;
+			children = (
+				FEAD3C091C08590B008EEAA4 /* Classes */,
+				FEAD3BD91C08586E008EEAA4 /* AppDelegate.h */,
+				FEAD3BDA1C08586E008EEAA4 /* AppDelegate.m */,
+				FEAD3BDC1C08586E008EEAA4 /* ViewController.h */,
+				FEAD3BDD1C08586E008EEAA4 /* ViewController.m */,
+				FE3D9C171C11D65A00ED514C /* SearchResultsTableViewController.h */,
+				FE3D9C181C11D65A00ED514C /* SearchResultsTableViewController.m */,
+				FEAD3BDF1C08586E008EEAA4 /* Main.storyboard */,
+				FEAD3BE21C08586E008EEAA4 /* Assets.xcassets */,
+				FEAD3BE41C08586E008EEAA4 /* LaunchScreen.storyboard */,
+				FEAD3BE71C08586E008EEAA4 /* Info.plist */,
+				FEAD3BD61C08586E008EEAA4 /* Supporting Files */,
+			);
+			path = AALSearchBarController;
+			sourceTree = "<group>";
+		};
+		FEAD3BD61C08586E008EEAA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEAD3BD71C08586E008EEAA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEAD3BEF1C08586E008EEAA4 /* AALSearchBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEAD3BF01C08586E008EEAA4 /* AALSearchBarControllerTests.m */,
+				FEAD3BF21C08586E008EEAA4 /* Info.plist */,
+			);
+			path = AALSearchBarControllerTests;
+			sourceTree = "<group>";
+		};
+		FEAD3BFA1C08586E008EEAA4 /* AALSearchBarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEAD3BFB1C08586E008EEAA4 /* AALSearchBarControllerUITests.m */,
+				FEAD3BFD1C08586E008EEAA4 /* Info.plist */,
+			);
+			path = AALSearchBarControllerUITests;
+			sourceTree = "<group>";
+		};
+		FEAD3C091C08590B008EEAA4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FEAD3C0A1C085FF2008EEAA4 /* AALSearchController.h */,
+				FEAD3C0B1C085FF2008EEAA4 /* AALSearchController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEAD3BD21C08586E008EEAA4 /* AALSearchBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEAD3C001C08586E008EEAA4 /* Build configuration list for PBXNativeTarget "AALSearchBarController" */;
+			buildPhases = (
+				FEAD3BCF1C08586E008EEAA4 /* Sources */,
+				FEAD3BD01C08586E008EEAA4 /* Frameworks */,
+				FEAD3BD11C08586E008EEAA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AALSearchBarController;
+			productName = AALSearchBarController;
+			productReference = FEAD3BD31C08586E008EEAA4 /* AALSearchBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEAD3BEB1C08586E008EEAA4 /* AALSearchBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEAD3C031C08586E008EEAA4 /* Build configuration list for PBXNativeTarget "AALSearchBarControllerTests" */;
+			buildPhases = (
+				FEAD3BE81C08586E008EEAA4 /* Sources */,
+				FEAD3BE91C08586E008EEAA4 /* Frameworks */,
+				FEAD3BEA1C08586E008EEAA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEAD3BEE1C08586E008EEAA4 /* PBXTargetDependency */,
+			);
+			name = AALSearchBarControllerTests;
+			productName = AALSearchBarControllerTests;
+			productReference = FEAD3BEC1C08586E008EEAA4 /* AALSearchBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEAD3BF61C08586E008EEAA4 /* AALSearchBarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEAD3C061C08586E008EEAA4 /* Build configuration list for PBXNativeTarget "AALSearchBarControllerUITests" */;
+			buildPhases = (
+				FEAD3BF31C08586E008EEAA4 /* Sources */,
+				FEAD3BF41C08586E008EEAA4 /* Frameworks */,
+				FEAD3BF51C08586E008EEAA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEAD3BF91C08586E008EEAA4 /* PBXTargetDependency */,
+			);
+			name = AALSearchBarControllerUITests;
+			productName = AALSearchBarControllerUITests;
+			productReference = FEAD3BF71C08586E008EEAA4 /* AALSearchBarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEAD3BCB1C08586E008EEAA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Aalen;
+				TargetAttributes = {
+					FEAD3BD21C08586E008EEAA4 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					FEAD3BEB1C08586E008EEAA4 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = FEAD3BD21C08586E008EEAA4;
+					};
+					FEAD3BF61C08586E008EEAA4 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = FEAD3BD21C08586E008EEAA4;
+					};
+				};
+			};
+			buildConfigurationList = FEAD3BCE1C08586E008EEAA4 /* Build configuration list for PBXProject "AALSearchBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEAD3BCA1C08586E008EEAA4;
+			productRefGroup = FEAD3BD41C08586E008EEAA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEAD3BD21C08586E008EEAA4 /* AALSearchBarController */,
+				FEAD3BEB1C08586E008EEAA4 /* AALSearchBarControllerTests */,
+				FEAD3BF61C08586E008EEAA4 /* AALSearchBarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEAD3BD11C08586E008EEAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAD3BE61C08586E008EEAA4 /* LaunchScreen.storyboard in Resources */,
+				FEAD3BE31C08586E008EEAA4 /* Assets.xcassets in Resources */,
+				FEAD3BE11C08586E008EEAA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAD3BEA1C08586E008EEAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAD3BF51C08586E008EEAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEAD3BCF1C08586E008EEAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAD3C0C1C085FF2008EEAA4 /* AALSearchController.m in Sources */,
+				FE3D9C191C11D65A00ED514C /* SearchResultsTableViewController.m in Sources */,
+				FEAD3BDE1C08586E008EEAA4 /* ViewController.m in Sources */,
+				FEAD3BDB1C08586E008EEAA4 /* AppDelegate.m in Sources */,
+				FEAD3BD81C08586E008EEAA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAD3BE81C08586E008EEAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAD3BF11C08586E008EEAA4 /* AALSearchBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEAD3BF31C08586E008EEAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAD3BFC1C08586E008EEAA4 /* AALSearchBarControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEAD3BEE1C08586E008EEAA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEAD3BD21C08586E008EEAA4 /* AALSearchBarController */;
+			targetProxy = FEAD3BED1C08586E008EEAA4 /* PBXContainerItemProxy */;
+		};
+		FEAD3BF91C08586E008EEAA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEAD3BD21C08586E008EEAA4 /* AALSearchBarController */;
+			targetProxy = FEAD3BF81C08586E008EEAA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEAD3BDF1C08586E008EEAA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEAD3BE01C08586E008EEAA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEAD3BE41C08586E008EEAA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEAD3BE51C08586E008EEAA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEAD3BFE1C08586E008EEAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEAD3BFF1C08586E008EEAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEAD3C011C08586E008EEAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AALSearchBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aalen.AALSearchBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEAD3C021C08586E008EEAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AALSearchBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aalen.AALSearchBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FEAD3C041C08586E008EEAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AALSearchBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aalen.AALSearchBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AALSearchBarController.app/AALSearchBarController";
+			};
+			name = Debug;
+		};
+		FEAD3C051C08586E008EEAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AALSearchBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aalen.AALSearchBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AALSearchBarController.app/AALSearchBarController";
+			};
+			name = Release;
+		};
+		FEAD3C071C08586E008EEAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AALSearchBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aalen.AALSearchBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AALSearchBarController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FEAD3C081C08586E008EEAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AALSearchBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aalen.AALSearchBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AALSearchBarController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEAD3BCE1C08586E008EEAA4 /* Build configuration list for PBXProject "AALSearchBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEAD3BFE1C08586E008EEAA4 /* Debug */,
+				FEAD3BFF1C08586E008EEAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEAD3C001C08586E008EEAA4 /* Build configuration list for PBXNativeTarget "AALSearchBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEAD3C011C08586E008EEAA4 /* Debug */,
+				FEAD3C021C08586E008EEAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEAD3C031C08586E008EEAA4 /* Build configuration list for PBXNativeTarget "AALSearchBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEAD3C041C08586E008EEAA4 /* Debug */,
+				FEAD3C051C08586E008EEAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEAD3C061C08586E008EEAA4 /* Build configuration list for PBXNativeTarget "AALSearchBarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEAD3C071C08586E008EEAA4 /* Debug */,
+				FEAD3C081C08586E008EEAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEAD3BCB1C08586E008EEAA4 /* Project object */;
+}
