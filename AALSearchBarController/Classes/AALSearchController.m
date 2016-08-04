@@ -280,6 +280,7 @@
 		
 		//从self.view 去除...
 		[_searchBar removeFromSuperview];
+		[_searchResultsController.view removeFromSuperview];
 		[self.view removeFromSuperview];
 		
 		if([_searchBarSuperView isKindOfClass: [UITableView class]])
