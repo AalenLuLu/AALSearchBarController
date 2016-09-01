@@ -10,7 +10,7 @@
 
 #import <objc/runtime.h>
 
-@interface AALSearchController () <UISearchBarDelegate, UIBarPositioningDelegate, UITableViewDelegate>
+@interface AALSearchController () <UISearchBarDelegate, UIBarPositioningDelegate, UITableViewDelegate, UIGestureRecognizerDelegate>
 
 @property (weak, nonatomic) UIView *searchBarSuperView;
 @property (strong, nonatomic) UIViewController *searchResultsController;
@@ -107,6 +107,7 @@
     // Do any additional setup after loading the view.
 	self.view.backgroundColor = [UIColor colorWithWhite: 1 alpha: 0.9];
 	UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget: self action: @selector(onTapView:)];
+	tapGesture.delegate = self;
 	[self.view addGestureRecognizer: tapGesture];
 }
 
@@ -348,6 +349,17 @@
 			_searchBar.delegate = self;
 		}
 	}
+}
+
+#pragma mark gesture delegate...
+
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
+{
+	if(0 < _searchBar.text.length)
+	{
+		return NO;
+	}
+	return YES;
 }
 
 #pragma mark search bar delegate...
